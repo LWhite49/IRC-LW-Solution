@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interactive Rating Component</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Outfit:wght@400;700&family=Overpass:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="interactive-rating-component.css"/>
+    </head>
+    <body>
+        <main class="main-container">
+            <div class="star-container">
+                <button class="star-button">
+                    <img class="star" src="images/icon-star.svg"/>
+                </button>
+            </div>
+            <div class="title-container">
+                <p class="rating-title">How did we do?</p>
+            </div>
+            <div class="text-container">
+                <p class="rating-text">Please let us know how we did with your support
+                    request. All feedback is appreciated to help us
+                    improve our offering!</p>
+            </div>
+            <div class="input-wrap">
+                <button class="input-button" data-score="1"><span class="button-text">1</span></button>
+                <button class="input-button" data-score="2"><span class="button-text">2</span></button>
+                <button class="input-button" data-score="3"><span class="button-text">3</span></button>
+                <button class="input-button" data-score="4"><span class="button-text">4</span></button>
+                <button class="input-button" data-score="5"><span class="button-text">5</span></button>    
+            </div>
+            <div class="submit-wrap">
+                <button class="submit-button">SUBMIT</button>
+            </div>
+        </main>
+        <script src="./scripts/interactive-rating-component.js"></script>
+    </body>
+</html>

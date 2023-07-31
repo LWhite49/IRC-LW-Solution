@@ -1,0 +1,97 @@
+body {
+    font-family: "Overpass";
+    font-size: 28pt;
+    height: 100%;
+    background-color: #141519;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: radial-gradient(circle at top, #21282f 0%, #1e252f 30%, #1a212b 70%, #171e28 100%);
+    align-items: center;
+    height: 46.5%;
+    min-height: 660px;
+    width: 22.6%;
+    min-width: 508px;
+    padding: 2.2%;
+    border-radius: 10%;
+}
+.star{
+    width: 35px;
+    height: 35px;
+}
+.star-button{
+    padding: 35px 35px 35px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272e38;
+    border: none;
+    border-radius: 52.5px;
+}
+.star-container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.title-container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.rating-title{
+    color: #fbffff;
+    font-size: 48pt;
+    font-weight: 600;
+    padding-left: 4px;
+    margin-bottom: 0px;
+}
+.rating-text{
+    color: hsl(216, 12%, 54%);
+    font-size: 26pt;
+    margin-top: 25px;
+    line-height: 150%;
+    padding-left: 4px;
+    line-break: strict;
+}
+.input-wrap{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+}
+.input-button{
+    position: relative;
+    color: #99a2b2;
+    font-size: 26pt;;
+    font-family: "Overpass";
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    background-color: #272e38;
+    border: none;
+    transition: background-color .2s, color .2s;
+}
+.input-button:hover{
+    background-color: #ff7611;
+    color: white;
+}
+.input-button-selected{
+    color: white;
+    background-color: #7c8799;
+}
+.input-button-selected:hover{
+    background-color: #7c8799;
+    color: white;
+}
+.button-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 14px;
+}
