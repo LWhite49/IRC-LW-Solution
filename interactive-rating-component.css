@@ -211,3 +211,50 @@ body {
         height: 684px;
     }
 }
+/* Resize for mobile layout */
+@media (max-width: 640px) {
+    .main-container{
+        width: 355px;
+        min-width:0px;
+        height: 405px;
+        min-height: 0px;;
+        padding: 30px;
+        border-radius: 25px;
+    }
+    .star{
+        width: 16px;
+        height: 16px;
+    }
+    .star-button{
+        padding: 16px;
+    }
+    .rating-title{
+        font-size: 22pt;
+        margin-top: 20px;
+    }
+    .rating-text{
+        color: #99a0aa;
+        font-size: 13.2pt;
+        margin-top: 10px;
+        line-height: 30px;
+    }
+    .input-wrap{
+        margin-top: 20px;
+
+    }
+    .input-button{
+        width: 54px;
+        height: 54px;
+        border-radius: 27px;
+    }
+    .button-text{
+        font-size: 16pt;
+        bottom: 8px;
+    }
+    .submit-wrap{
+        padding-top: 30px;;
+    }
+    .submit-button{
+        font-size: 14pt;
+    }
+    }
