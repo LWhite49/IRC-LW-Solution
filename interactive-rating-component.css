@@ -17,7 +17,7 @@ body {
     min-height: 684px;
     width: 22.6%;
     min-width: 508px;
-    padding: 2.2%;
+    padding: 60px;
     border-radius: 10%;
 }
 .star{
@@ -58,6 +58,7 @@ body {
     padding-left: 4px;
     line-break: strict;
     margin-bottom: none;
+    padding-bottom: none;
 }
 .input-wrap{
     display: flex;
@@ -123,4 +124,28 @@ body {
 .submit-button:hover{
     background-color: #ffffff;
     color: #da823e;
+}
+/* Adjusts spacing when text expands into a fourth line */
+@media only screen and (max-width: 3030px) {
+    .input-wrap{
+        margin-top: -10px;
+    }
+    .submit-wrap{
+        padding-top: 32px;
+    }
+}
+/* Resizes buttons so they do not overlap */
+@media (max-width: 2800px) {
+    .input-button{
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+    .button-text{
+        bottom: 4px;
+    }
+    .submit-button{
+        padding: 20px 0px 16px 0px;
+        font-size: 24pt;
+    }
 }
