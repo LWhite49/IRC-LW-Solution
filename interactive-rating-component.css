@@ -14,7 +14,7 @@ body {
     background-image: radial-gradient(circle at top, #21282f 0%, #1e252f 30%, #1a212b 70%, #171e28 100%);
     align-items: center;
     height: 46.5%;
-    min-height: 660px;
+    min-height: 684px;
     width: 22.6%;
     min-width: 508px;
     padding: 2.2%;
@@ -57,11 +57,14 @@ body {
     line-height: 150%;
     padding-left: 4px;
     line-break: strict;
+    margin-bottom: none;
 }
 .input-wrap{
     display: flex;
     width: 98%;
+    margin-top: 22px;
     justify-content: space-between;
+    align-items: center;
 }
 .input-button{
     position: relative;
@@ -94,4 +97,30 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     bottom: 14px;
+}
+.submit-wrap{
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+}
+.submit-button{
+    position: relative;
+    width: 98%;
+    padding: 30px 0px 24px 0px;
+    font-family: "Overpass";
+    background-color: #fc7613;
+    color: #fff9ef;
+    border: none;
+    font-size: 26pt;
+    font-weight: 600;
+    letter-spacing: .18cap;
+    align-items: center;
+    border-radius: 64px;
+    transition: background-color .2s, color .2s;
+}
+.submit-button:hover{
+    background-color: #ffffff;
+    color: #da823e;
 }
