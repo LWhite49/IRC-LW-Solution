@@ -33,8 +33,8 @@ loadPageListener = () => {
             <p class="review-title">Thank you!</p>
         </div>
         <div class="text-container-review">
-            <p class="review-text">We appreciate you taking the time to give a rating-
-            If you ever need more support. don't hesitate to
+            <p class="review-text">We appreciate you taking the time to give a rating.
+            If you ever need more support, don't hesitate to
             get in touch!</p>
         </div>`
         document.querySelector(`.main-container`).innerHTML = newHTML;

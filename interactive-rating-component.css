@@ -211,6 +211,7 @@ body {
         height: 684px;
     }
 }
+
 /* Resize for mobile layout */
 @media (max-width: 640px) {
     .main-container{
@@ -257,4 +258,26 @@ body {
     .submit-button{
         font-size: 14pt;
     }
+    .response-graphic-wrap{
+        margin-top: 10px;
     }
+    .response-graphic{
+        width:50%;
+        min-width: 0px;
+    }
+    .rating-review{
+        font-size: 18px;
+        color: #ca8550;
+        letter-spacing: 0cap;
+        padding: 13px 15px 10px 15px;
+    }
+    .review-title{
+        font-size: 24pt;
+        margin-top: 36px;
+    }
+    .review-text{
+        font-size: 14pt;
+        color:#99a0aa;
+        letter-spacing: -.02cap;
+        width: 100%
+    }}
