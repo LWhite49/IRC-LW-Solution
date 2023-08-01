@@ -49,6 +49,7 @@ body {
     font-weight: 600;
     padding-left: 4px;
     margin-bottom: 0px;
+    font-family: "Overpass";
 }
 .rating-text{
     color: hsl(216, 12%, 54%);
@@ -59,6 +60,7 @@ body {
     line-break: strict;
     margin-bottom: none;
     padding-bottom: none;
+    font-family: "Overpass";
 }
 .input-wrap{
     display: flex;
@@ -125,6 +127,59 @@ body {
     background-color: #ffffff;
     color: #da823e;
 }
+.response-graphic-wrap{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+}
+.response-graphic{
+    width:45%;
+}
+.rating-review-wrap{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.rating-review{
+    margin-top: 10%;
+    font-size: 22pt;
+    padding: 20px 32px 15px 32px;
+    background-color: #262f38;
+    color: #c06c2d;
+    border: none;
+    border-radius: 42px;
+    letter-spacing: .08cap;
+    font-family: "Overpass";
+}
+.review-title{
+    color: #fbffff;
+    font-size: 42pt;
+    font-weight: 600;
+    padding-left: 4px;
+    margin-bottom: 0px;
+    margin-top: 85px;
+    font-family: "Overpass";
+}
+.text-container-review{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.review-text{
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+    font-size: 24pt;
+    margin-top: 25px;
+    line-height: 150%;
+    padding-left: 4px;
+    line-break: strict;
+    margin-bottom: none;
+    padding-bottom: none;
+    font-family: "Overpass";
+    width: 100%;
+    letter-spacing: .02cap;
+}
 /* Adjusts spacing when text expands into a fourth line */
 @media only screen and (max-width: 3030px) {
     .input-wrap{
@@ -135,7 +190,7 @@ body {
     }
 }
 /* Resizes buttons so they do not overlap */
-@media (max-width: 2800px) {
+@media (max-width: 2800px) or (max-height: 1588px){
     .input-button{
         width: 80px;
         height: 80px;
@@ -144,8 +199,14 @@ body {
     .button-text{
         bottom: 4px;
     }
+    .submit-wrap{
+        padding-top: 44px;
+    }
     .submit-button{
         padding: 20px 0px 16px 0px;
         font-size: 24pt;
+    }
+    .main-container{
+        height: 684px;
     }
 }
