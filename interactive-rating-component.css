@@ -135,6 +135,7 @@ body {
 }
 .response-graphic{
     width:45%;
+    min-width: 280px;
 }
 .rating-review-wrap{
     display: flex;

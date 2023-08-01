@@ -24,7 +24,7 @@ loadPageListener = () => {
         /* Create new page html */
         let newHTML =
         `<div class="response-graphic-wrap">
-            <img class="response-graphic" src="../images/illustration-thank-you.svg"/>
+            <img class="response-graphic" src="../images/illustration-thank-you.svg" draggable="false"/>
         </div>
         <div class="rating-review-wrap">
             <button class="rating-review">You selected ${reviewScore} out of 5</button>
